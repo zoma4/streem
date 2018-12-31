@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 
-client.login("توكن");
+client.login("Mzc3NDA1NzYwMzUyODEzMDU3.DwvgJA.i3gWw__xbQFtSrQ9qK76WVT6BzY");
 
 
 
@@ -24,7 +24,7 @@ client.user.setStatus("dnd");
 
 
 
-const devs = ["ايدي"];
+const devs = ["377405760352813057"];
 const adminprefix = ["-"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
